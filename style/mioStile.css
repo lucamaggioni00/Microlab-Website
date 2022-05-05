@@ -15,8 +15,25 @@
 
 /* CSS INSERITO DA ME */
 
+/* prima slide */
+#firstImage {
+   background-image: url("../images/banco_lavoro_big.jpg");
+   background-color: #cccccc;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 5% 95%;
+   background-attachment: fixed;
+}
+
+header {
+   border-bottom-width: 2px;
+}
+
 body {
    background-color: #38a3a5;
+   padding-top: 5px;
+   padding-bottom: 5px;
+
 }
 
 .colorato  { /* colore scritte */
