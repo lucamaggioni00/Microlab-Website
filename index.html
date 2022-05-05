@@ -107,8 +107,8 @@
 
     <ul class="nav nav-pills">
       <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link"><p class="colorato">Laboratorio</p></a></li>
-      <li class="nav-item"><a href="#" class="nav-link"><p class="colorato">Contatti</p></a></li>
+      <li class="nav-item"><a href="#Laboratorio" class="nav-link"><p class="colorato">Laboratorio</p></a></li>
+      <li class="nav-item"><a href="#Contatti" class="nav-link"><p class="colorato">Contatti</p></a></li>
     </ul>
   </header>
 </div>
@@ -172,7 +172,7 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div id="Laboratorio" class="container marketing">
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
@@ -204,7 +204,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="Contatti" class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
         <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
@@ -249,10 +249,20 @@
 
 
   <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <p class="col-md-4 mb-0 text-muted">&copy; 2022 Microlab</p>
+
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+  </a>
+
+  <ul class="nav col-md-4 justify-content-end">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+    <li class="nav-item"><a href="mailto:luca.maggioni@protonmail.com" class="nav-link px-2 text-muted">Created by Luca Maggioni</a></li>
+  </ul>
+</footer>
+</div>
 </main>
 
 
