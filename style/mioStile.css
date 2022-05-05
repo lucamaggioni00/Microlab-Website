@@ -17,7 +17,7 @@
 
 /* prima slide */
 #firstImage {
-   background-image: url("../images/banco_lavoro_big.jpg");
+   background-image: url("../images/banco_lavoro_big.webp");
    background-color: #cccccc;
    background-size: cover;
    background-repeat: no-repeat;
