@@ -15,3 +15,23 @@
 
 /* CSS INSERITO DA ME */
 
+body {
+   background-color: #38a3a5;
+}
+
+.colorato  { /* colore scritte */
+   color: #80ed99;
+}
+
+.nav-pills .nav-link.active { /* bordo del bottone home */
+   background-color: #80ed99;
+   color: #22577a;
+}
+
+#titolo { /* bordo del bottone home */
+   color: #22577a;
+   font-weight: 400;
+   letter-spacing: 0.021em;
+   line-height: 0;
+   font-size: 40px;
+}
