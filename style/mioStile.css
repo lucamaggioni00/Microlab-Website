@@ -54,3 +54,9 @@ body {
    font-size: 50px;
    font-family: 'Fjalla One';
 }
+
+/* Logo iniziale nella navbar */
+#logoImg {
+   height: 56px;
+   width: 280px;
+}
