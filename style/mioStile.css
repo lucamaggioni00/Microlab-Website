@@ -15,6 +15,10 @@
 
 /* CSS INSERITO DA ME */
 
+p {
+   margin-bottom: 5px;
+}
+
 /* prima slide */
 #firstImage {
    background-image: url("../images/banco_lavoro_big.webp");
