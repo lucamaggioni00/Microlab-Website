@@ -15,9 +15,14 @@
 
 /* CSS INSERITO DA ME */
 
+/* laboratorio e contatti navbar */
+#navbar {
+   margin-top: 10px;
+}
+
 /* attributi p dentro a dentro li */
 li a p {
-   font-size: 19px;
+   font-size: 21px;
    line-height: 35px;
    letter-spacing: 0.026em;
    font-weight: 600;
