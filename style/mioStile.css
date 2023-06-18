@@ -19,6 +19,15 @@ p {
    margin-bottom: 5px;
 }
 
+/* attributi p dentro a dentro li */
+li a p {
+   font-size: 19px;
+   line-height: 35px;
+   letter-spacing: 0.026em;
+   font-weight: 600;
+   font-style: normal;
+}
+
 /* prima slide */
 #firstImage {
    background-image: url("../images/banco_lavoro_big.webp");
@@ -35,18 +44,19 @@ header {
 }
 
 body {
-   background-color: #38a3a5;
+   background-color: #219EBC;
    padding-top: 10px;
    padding-bottom: 5px;
 
 }
 
-.colorato  { /* colore scritte */
-   color: #80ed99;
+/* colore scritte */
+.colorato  { 
+   color: #023047;
 }
 
 .nav-pills .nav-link.active { /* bordo del bottone home */
-   background-color: #80ed99;
+   background-color: #FFB703;
    color: #22577a;
 }
 
@@ -63,4 +73,10 @@ body {
 #logoImg {
    height: 56px;
    width: 280px;
+}
+
+/* per forzare il colore */
+.footer-colorato {
+   --bs-text-opacity: 1;
+   color: #023047;
 }
