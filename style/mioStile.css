@@ -41,6 +41,11 @@ li a p {
    font-style: normal;
 }
 
+/* mappa */
+#mappa {
+   background-image: url("../images/Mappa.jpg");
+}
+
 /* prima slide */
 #firstImage {
    background-image: url("../images/banco_lavoro_big.webp");
