@@ -15,14 +15,15 @@
 
 /* CSS INSERITO DA ME */
 
+body {
+   font-family: Tahoma;
+}
+
 h1 {
    font-weight: 400;
    color: white;
    text-shadow:
-      -1px -1px 0 black;
-      /*1px -1px 0 white,
-      -1px  1px 0 white,
-      1px  1px 0 white;*/
+      -1px -1px 0 #3f464c;
 }
 
 /* laboratorio e contatti navbar */
