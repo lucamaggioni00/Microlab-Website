@@ -35,9 +35,9 @@ li a p {
    background-color: #cccccc;
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: 5% 95%;
+   background-position: 90% 10%;
    filter: blur(2.5px);
-   
+
 }
 
 header {
