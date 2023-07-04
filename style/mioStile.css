@@ -37,6 +37,7 @@ h1 {
 
 h2 {
    margin-top: 8px;
+   margin-bottom: 15px;
 }
 
 /* laboratorio e contatti navbar */
@@ -51,6 +52,7 @@ li a p {
    letter-spacing: 0.026em;
    font-weight: 600;
    font-style: normal;
+   margin-bottom: 0px;
 }
 
 /* mappa */
