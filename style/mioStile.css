@@ -117,3 +117,11 @@ body {
    --bs-text-opacity: 1;
    color: #023047;
 }
+
+footer p {
+   font-size: 12px;
+}
+
+footer a {
+   font-size: 12px;
+}
