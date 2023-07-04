@@ -35,6 +35,10 @@ h1 {
       -1px -1px 0 #023047;
 }
 
+h2 {
+   margin-top: 8px;
+}
+
 /* laboratorio e contatti navbar */
 #navbar {
    margin-top: 10px;
@@ -75,6 +79,10 @@ body {
    padding-top: 10px;
    padding-bottom: 5px;
 
+}
+
+#info-contatto {
+   font-size: 1.1em;
 }
 
 /* colore scritte */
