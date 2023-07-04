@@ -15,12 +15,15 @@
 
 /* CSS INSERITO DA ME */
 
+/* caricamento font scaricati */
 @font-face {
   font-family: 'Roboto Mono';
   src: url('font/RobotoMono-VariableFont.woff2') format('woff2'),
        url('font/RobotoMono-VariableFont.woff') format('woff');
   /* Aggiungi altre varianti del font, come font-weight o font-style, se necessario */
 }
+
+/* else */
 
 body {
   font-family: 'Roboto Mono', sans-serif;
@@ -84,7 +87,7 @@ body {
 }
 
 #info-contatto {
-   font-size: 1.1em;
+   font-size: 1.0em;
 }
 
 /* colore scritte */
@@ -124,4 +127,9 @@ footer p {
 
 footer a {
    font-size: 12px;
+}
+
+/* over-writing della classe per colorare i link */
+.nav-link {
+   color: #219ebc;
 }
